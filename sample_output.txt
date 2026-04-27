@@ -1,0 +1,63 @@
+Assignment 3: Sorting and Searching Algorithm Analysis System
+Chosen algorithms: Selection Sort, Merge Sort, Binary Search
+
+Dataset type: Random, Size: 10
+Selection Sort time: 4251 ns
+Merge Sort time:     4605 ns
+Binary Search time:  2310 ns
+Target 5544 found at index: 5
+Original array: 2201 8414 6961 9086 4460 5544 4018 3645 7314 4366 
+Sorted array:   2201 3645 4018 4366 4460 5544 6961 7314 8414 9086 
+Comparison: Selection Sort was faster in this test.
+--------------------------------------------------
+Dataset type: Sorted, Size: 10
+Selection Sort time: 2071 ns
+Merge Sort time:     3645 ns
+Binary Search time:  1034 ns
+Target 5 found at index: 5
+Original array: 0 1 2 3 4 5 6 7 8 9 
+Sorted array:   0 1 2 3 4 5 6 7 8 9 
+Comparison: Selection Sort was faster in this test.
+--------------------------------------------------
+Dataset type: Random, Size: 100
+Selection Sort time: 90638 ns
+Merge Sort time:     103247 ns
+Binary Search time:  1203 ns
+Target 4520 found at index: 50
+Comparison: Selection Sort was faster in this test.
+--------------------------------------------------
+Dataset type: Sorted, Size: 100
+Selection Sort time: 66387 ns
+Merge Sort time:     12960 ns
+Binary Search time:  769 ns
+Target 50 found at index: 50
+Comparison: Merge Sort was faster in this test.
+--------------------------------------------------
+Dataset type: Random, Size: 1000
+Selection Sort time: 2270077 ns
+Merge Sort time:     393209 ns
+Binary Search time:  2024 ns
+Target 4912 found at index: 500
+Comparison: Merge Sort was faster in this test.
+--------------------------------------------------
+Dataset type: Sorted, Size: 1000
+Selection Sort time: 1515231 ns
+Merge Sort time:     104900 ns
+Binary Search time:  1243 ns
+Target 500 found at index: 500
+Comparison: Merge Sort was faster in this test.
+--------------------------------------------------
+Dataset type: Random, Size: 5000
+Selection Sort time: 19626594 ns
+Merge Sort time:     686563 ns
+Binary Search time:  1928 ns
+Target 4944 found at index: 2500
+Comparison: Merge Sort was faster in this test.
+--------------------------------------------------
+Dataset type: Sorted, Size: 5000
+Selection Sort time: 5110801 ns
+Merge Sort time:     466376 ns
+Binary Search time:  2096 ns
+Target 2500 found at index: 2500
+Comparison: Merge Sort was faster in this test.
+--------------------------------------------------
